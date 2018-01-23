@@ -1,9 +1,12 @@
 import * as React from 'react';
+import SearchBar from '../containers/search_bar';
 
 export default class App extends React.Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <SearchBar />
+      </div>
     );
   }
 }
