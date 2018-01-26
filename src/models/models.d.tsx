@@ -11,4 +11,10 @@ declare module models {
     interface ISearchBarState {
         term?: string;
     }
+
+    interface IChartProps {
+        data?: Array<any>;
+        color?: string;
+        units?: string;
+    }
 }
