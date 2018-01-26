@@ -8,5 +8,10 @@ td, th {
 }
 
 svg {
-    height: 130px;
+    height: 180px;
+}
+
+td:first-of-type, td:first-of-type > div {
+    height: 180px;
+    width: 250px;
 }

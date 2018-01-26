@@ -17,4 +17,9 @@ declare module models {
         color?: string;
         units?: string;
     }
+
+    interface IGoogleMapProps {
+        lat?: number;
+        lon?: number;
+    }
 }
