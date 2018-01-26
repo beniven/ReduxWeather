@@ -42,7 +42,7 @@ class SearchBar extends React.Component<models.ISearchBarProps, models.ISearchBa
     }
 }
 
-function mapDispatchToProps(dispatch: Redux.Dispatch<void>) {
+function mapDispatchToProps(dispatch: any) {
     return Redux.bindActionCreators({ fetchWeather }, dispatch);
 }
 
